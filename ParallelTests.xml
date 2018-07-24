@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--TestNG will run all the methods in the same <test> tag in the same thread,
+but each <test> tag will be in a separate thread. -->
+
+<suite name="Suite01" verbose="1" parallel="tests" thread-count="2">
+    <test name="Test 1" >
+        <classes>
+            <class name="TestCase01" />
+        </classes>
+    </test>
+    <test name="Test 2">
+        <classes>
+            <class name="TestCase02" />
+        </classes>
+    </test>
+</suite>

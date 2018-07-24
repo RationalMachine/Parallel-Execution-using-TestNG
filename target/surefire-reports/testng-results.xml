@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite01" duration-ms="69" started-at="2018-07-24T10:15:09Z" finished-at="2018-07-24T10:15:09Z">
+    <groups>
+      <group name="regression">
+        <method signature="TestCase01.method01(org.testng.ITestContext)[pri:0, instance:TestCase01@3d0f8e03]" name="method01" class="TestCase01"/>
+        <method signature="TestCase02.method03(org.testng.ITestContext)[pri:0, instance:TestCase02@74294adb]" name="method03" class="TestCase02"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TestCase01.method02(org.testng.ITestContext)[pri:0, instance:TestCase01@3d0f8e03]" name="method02" class="TestCase01"/>
+        <method signature="TestCase02.method04(org.testng.ITestContext)[pri:0, instance:TestCase02@74294adb]" name="method04" class="TestCase02"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Test 2" duration-ms="69" started-at="2018-07-24T10:15:09Z" finished-at="2018-07-24T10:15:09Z">
+      <class name="TestCase02">
+        <test-method status="PASS" signature="method03(org.testng.ITestContext)[pri:0, instance:TestCase02@74294adb]" name="method03" duration-ms="27" started-at="2018-07-24T10:15:09Z" finished-at="2018-07-24T10:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method03 -->
+        <test-method status="PASS" signature="method04(org.testng.ITestContext)[pri:0, instance:TestCase02@74294adb]" name="method04" duration-ms="0" started-at="2018-07-24T10:15:09Z" finished-at="2018-07-24T10:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method04 -->
+      </class> <!-- TestCase02 -->
+    </test> <!-- Test 2 -->
+    <test name="Test 1" duration-ms="69" started-at="2018-07-24T10:15:09Z" finished-at="2018-07-24T10:15:09Z">
+      <class name="TestCase01">
+        <test-method status="PASS" signature="method01(org.testng.ITestContext)[pri:0, instance:TestCase01@3d0f8e03]" name="method01" duration-ms="27" started-at="2018-07-24T10:15:09Z" finished-at="2018-07-24T10:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method01 -->
+        <test-method status="PASS" signature="method02(org.testng.ITestContext)[pri:0, instance:TestCase01@3d0f8e03]" name="method02" duration-ms="1" started-at="2018-07-24T10:15:09Z" finished-at="2018-07-24T10:15:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method02 -->
+      </class> <!-- TestCase01 -->
+    </test> <!-- Test 1 -->
+  </suite> <!-- Suite01 -->
+</testng-results>

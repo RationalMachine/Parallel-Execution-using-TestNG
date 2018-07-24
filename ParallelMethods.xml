@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!--TestNG will run all your test methods in separate threads.-->
+
+<suite name="Suite02" verbose="1" parallel="methods" thread-count="2">
+    <test name="Test 1" >
+        <classes>
+            <class name="TestCase01" />
+        </classes>
+    </test>
+</suite>
